@@ -1,0 +1,22 @@
+{
+  "name": "utxo",
+  "version": "1.0.0",
+  "description": "small js block/hashchain",
+  "main": "Chain.js",
+  "scripts": {
+    "test": "clear && echo usage: npm start",
+    "start": "clear && nodemon Chain.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/cpk42/blockchain"
+  },
+  "keywords": [
+    "blockchain",
+    "js",
+    "hashchain",
+    "crypto"
+  ],
+  "author": "ckrommen",
+  "license": "ISC"
+}
