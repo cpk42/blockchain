@@ -9,7 +9,9 @@ class Block {
   getKey() {
     return sha((Math.random() * 1000).toString());
   }
-  transaction() 
+  transaction() {
+    
+  }
 }
 
 module.exports = Block;
