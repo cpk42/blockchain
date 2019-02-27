@@ -1,16 +1,14 @@
 const sha = require('sha256');
 
 class Block {
-  constructor(balance, publicKey, difficulty) {
-    this.balance = balance;
-    this.publicKey = publicKey;
-    this.privateKey = this.getKey();
+  constructor() {
+    this.transactionLimit = 10;
   }
   getKey() {
     return sha((Math.random() * 1000).toString());
   }
   transaction() {
-    
+
   }
 }
 
