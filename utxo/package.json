@@ -5,7 +5,7 @@
   "main": "Chain.js",
   "scripts": {
     "test": "clear && echo usage: npm start",
-    "start": "clear && nodemon Chain.js"
+    "start": "clear && nodemon Index.js"
   },
   "repository": {
     "type": "git",
