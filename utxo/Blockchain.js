@@ -1,4 +1,5 @@
 const Transaction = require('./Transaction');
+const EventEmitter = require('events');
 const Block = require('./Block');
 const User = require('./User');
 

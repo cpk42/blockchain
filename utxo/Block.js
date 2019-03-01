@@ -15,7 +15,7 @@ class Block {
     console.log(`Here is your receipt`);
     this.transactions[key] = transaction;
     this.receipts.push(key)
-
+    console.log(transaction);
   }
 };
 
